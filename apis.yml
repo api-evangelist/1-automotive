@@ -1,7 +1,11 @@
 aid: 1-automotive
-url: https://raw.githubusercontent.com/api-evangelist/1-automotive/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/1-automotive/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.1-automotive.com
+description: >-
+  1-Automotive is an automotive industry company providing vehicle-related products
+  and services.
