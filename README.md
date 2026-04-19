@@ -1,26 +1,18 @@
-# 1 Automotive (1-automotive)
-1 Automotive is a Fortune 500 company. This repository captures the APIs, developer tools, and machine-readable API artifacts for 1 Automotive.
+# 1-Automotive (1-automotive)
+1-Automotive is an automotive industry company providing vehicle-related products and services. No public APIs have been documented for this provider.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/1-automotive/refs/heads/main/apis.yml)
 
-## Scope
-
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
+**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
 
 ## Tags:
 
- - Fortune 500
+ - Automotive, Vehicles
 
 ## Timestamps
 
 - **Created:** 2026-03-21
-- **Modified:** 2026-03-21
-
-## APIs
-
-No public APIs have been documented yet. Contributions welcome.
+- **Modified:** 2026-04-19
 
 ## Common Properties
 
@@ -28,6 +20,6 @@ No public APIs have been documented yet. Contributions welcome.
 
 ## Maintainers
 
-**FN:** API Evangelist
+**FN:** Kin Lane
 
-**Email:** info@apievangelist.com
+**Email:** kin@apievangelist.com
