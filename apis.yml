@@ -8,12 +8,12 @@ deliveryModel:
   open_source: false
   commercial: false
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
+  label: Delivery model not determined — no operating company could be verified
   confidence: low
   source:
   - none
-  generated: '2026-08-28'
-  method: derived
+  generated: '2026-08-29'
+  method: probed
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -23,23 +23,52 @@ accessModel:
   label: Unknown
   confidence: low
   source: []
-  generated: '2026-07-22'
+  generated: '2026-08-29'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/1-automotive.png
 tags:
   - Automotive
   - Vehicles
-  - Fortune 500
+  - Automotive Retail
+  - Unverified Entity
+  - No Developer Program
 description: >-
-  1-Automotive is an automotive industry company providing vehicle-related
-  products and services. No public APIs have been documented for this provider.
+  1-Automotive is a catalog entry for which no operating company, developer program, or live web
+  presence could be verified. The only host this profile ever recorded, www.1-automotive.com, is
+  not a registered domain — Verisign WHOIS returns "No match for domain 1-AUTOMOTIVE.COM" and DNS
+  answers NXDOMAIN for both the apex and the www label (probed 2026-08-29) — so the Website
+  pointer that stood here asserted a page that has never existed and has been removed. Public web
+  search returns no organization trading under this exact name; the nearest real match, and the
+  likely origin of this slug, is Group 1 Automotive (NYSE: GPI), the Fortune 500 automotive
+  retailer that API Evangelist profiles separately under the group-1-automotive slug, where its
+  live llms.txt vehicle-inventory surface is already captured. No OpenAPI, AsyncAPI, GraphQL SDL,
+  MCP server, A2A agent card, SDK, package or developer portal exists for this entry, and none has
+  been authored on its behalf.
 created: '2026-03-21'
-modified: '2026-04-19'
+modified: '2026-08-29'
 specificationVersion: '0.23'
 apis: []
-common:
-  - type: Website
-    url: https://www.1-automotive.com
+common: []
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-08-29'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    The single host on this profile, www.1-automotive.com, is not a registered domain (Verisign
+    WHOIS "No match", DNS NXDOMAIN on apex and www), no company trading as "1-Automotive" appears
+    in public search, and the name is most likely a truncated fragment of Group 1 Automotive — an
+    automotive dealership retailer, not a software vendor — which is already profiled separately
+    under the group-1-automotive slug.
+  evidence:
+    - url: https://www.1-automotive.com
+      status: 0
+    - url: https://1-automotive.com
+      status: 0
+  checked: '2026-08-29'
