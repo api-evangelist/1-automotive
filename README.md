@@ -1,4 +1,4 @@
-# 1-Automotive (1-automotive)
+# 1-Automotive
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,27 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-1-Automotive is an automotive industry company providing vehicle-related products and services. No public APIs have been documented for this provider.
+1-Automotive is a catalog entry for which no operating company, developer program, or live web presence could be verified. The only host this profile ever recorded, www.1-automotive.com, is not a registered domain — Verisign WHOIS returns "No match for domain 1-AUTOMOTIVE.COM" and DNS answers NXDOMAIN for both the apex and the www label (probed 2026-08-29) — so the Website pointer that stood here asserted a page that has never existed and has been removed. Public web search returns no organization trading under this exact name; the nearest real match, and the likely origin of this slug, is Group 1 Automotive (NYSE: GPI), the Fortune 500 automotive retailer that API Evangelist profiles separately under the group-1-automotive slug, where its live llms.txt vehicle-inventory surface is already captured. No OpenAPI, AsyncAPI, GraphQL SDL, MCP server, A2A agent card, SDK, package or developer portal exists for this entry, and none has been authored on its behalf.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/1-automotive/refs/heads/main/apis.yml)
+**Areas:** Automotive · Vehicles · Automotive Retail · Unverified Entity · No Developer Program
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## 1-Automotive on APIs.io
 
-## Tags:
+Everything profiled for 1-Automotive is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/1-automotive/](https://apis.io/providers/1-automotive/)** — or go straight to one of the APIs or properties below.
 
- - Automotive, Vehicles
+## API Evangelist rating
 
-## Timestamps
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-04-19
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Common Properties
+## How this profile is made
 
-- [Website](https://www.1-automotive.com)
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Maintainers
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 1-Automotive: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**FN:** Kin Lane
+## Open an issue
 
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/1-automotive/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
